@@ -1,0 +1,28 @@
+.boxes > div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.container
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.boxes
+{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+}
+
+.boxes div{
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+
